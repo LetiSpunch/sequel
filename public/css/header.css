@@ -1,0 +1,24 @@
+#header {
+z-index:0;
+}
+
+#header ul>li>a {
+    font-family: 'Fredericka the Great', cursive;
+    padding-bottom: 25px;
+    margin-right: 50px;
+    color: lightgrey;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+#header ul>li>a:hover {
+    text-shadow: 1px 1px 2px white, 0 0 2em rgb(194, 25, 56), 0 0 0.2em rgb(255, 30, 30);
+    border-bottom: rgb(194, 25, 56) solid 3px;
+}
+
+.navbar-logo {
+    align-items: center;
+    z-index: 1;
+    margin:0;
+    padding: 0;
+}
